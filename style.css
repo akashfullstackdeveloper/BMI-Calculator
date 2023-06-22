@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://www.shutterstock.com/image-vector/medical-health-care-innovative-element-260nw-771912280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color:rgba(22, 156, 205, 0.6);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 10px 10px 20px;
+}
+.box h1{
+    margin-bottom: 100px;
+}
+.box input{
+    padding: 10px;
+   margin-bottom: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+}
+h3{
+    color: white;
+    margin-top: 10px;
+}
